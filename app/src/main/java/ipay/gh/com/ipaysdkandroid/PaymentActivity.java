@@ -158,6 +158,7 @@ public class PaymentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 pg.show( );
+
                 new Timer( ).schedule(new TimerTask( ) {
                     @Override
                     public void run() {
@@ -173,7 +174,7 @@ public class PaymentActivity extends AppCompatActivity {
                                         try {
                                             Log.v(getClass( ).getName( ), response.toString( ));
                                             Log.v(getClass( ).getName( ), response.getJSONObject(payment.getInvoiceId()).getString("status"));
-                                            switch (response.getJSONObject(invoice).getString("status")) {
+                                            switch (response.getJSONObject(payment.getInvoiceId()).getString("status")) {
                                                 case "awaiting_payment":
                                                     notifyMe("Awaiting Payment.", "warn");
                                                     break;
@@ -221,9 +222,9 @@ public class PaymentActivity extends AppCompatActivity {
 
     public void makePayment(Payment payment) {
         pg.setMessage("Processing...");
-        pg.show( );
-        Log.v(getClass( ).getName( ), networkName);
-        JSONObject obj = new JSONObject( );
+        pg.show();
+        Log.v(getClass().getName(), networkName);
+        JSONObject obj = new JSONObject();
         try {
             obj.put("merchant_key", payment.getMerchantKey());
             obj.put("invoice_id", payment.getInvoiceId());

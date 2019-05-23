@@ -1,7 +1,9 @@
 package ipay.gh.com.ipayandroidsdk.models;
 
 
-public class Payment {
+import java.io.Serializable;
+
+public class Payment implements Serializable {
 
     private String merchantKey;
     private String invoiceId;

@@ -81,7 +81,7 @@ public class PaymentActivity extends AppCompatActivity {
         confirmationText.setTypeface(font);
         confirmPayment.setTypeface(font);
         checkoutText.setTypeface(font);
-        invoice = "IPAYTST" + format.format(new Date( )) + timeFormat.format(new Date( ).getTime( ));
+        invoice = "IPAYTST" + format.format(new Date()) + timeFormat.format(new Date( ).getTime( ));
         Log.v(getClass( ).getName( ), "Invoice : " + invoice);
         niceSpinner = findViewById(R.id.nice_spinner);
         niceSpinner.setTypeface(font);

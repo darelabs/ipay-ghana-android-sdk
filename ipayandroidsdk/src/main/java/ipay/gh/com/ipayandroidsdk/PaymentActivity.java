@@ -47,6 +47,8 @@ public class PaymentActivity extends AppCompatActivity {
     TextView confirmationText;
     NiceSpinner niceSpinner;
     private Payment payment;
+    EditText mobileNumber;
+    EditText voucherCode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,8 +66,8 @@ public class PaymentActivity extends AppCompatActivity {
         SimpleDateFormat timeFormat = new SimpleDateFormat("hhmmss", Locale.ENGLISH);
         AndroidNetworking.initialize(getApplicationContext( ));
         Typeface font = Typeface.createFromAsset(getAssets( ), "fonts/Montserrat-Medium.ttf");
-        final EditText mobileNumber = findViewById(R.id.mobileNumber);
-        final EditText voucherCode = findViewById(R.id.voucherCode);
+        mobileNumber = findViewById(R.id.mobileNumber);
+        voucherCode = findViewById(R.id.voucherCode);
         confirmationText = findViewById(R.id.confirmation_txt);
         final Button confirmPayment = findViewById(R.id.confirm_payout);
         final TextView checkoutText = findViewById(R.id.checkout);
@@ -225,10 +227,10 @@ public class PaymentActivity extends AppCompatActivity {
             obj.put("merchant_key", payment.getMerchantKey());
             obj.put("invoice_id", payment.getInvoiceId());
             obj.put("total", payment.getAmount());
-            obj.put("pymt_instrument", payment.getMobileNumber());
+            obj.put("pymt_instrument", mobileNumber.getText().toString());
             obj.put("extra_mobile_no", payment.getExtraMobileNumber());
-            obj.put("extra_wallet_issuer_hint", payment.getNetworkName());
-            obj.put("voucher_code", payment.getVoucherCode());
+            obj.put("extra_wallet_issuer_hint", networkName);
+            obj.put("voucher_code", voucherCode.getText().toString());
         } catch (JSONException e) {
             e.printStackTrace( );
         }

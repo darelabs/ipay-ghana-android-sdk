@@ -50,6 +50,7 @@ public class PaymentActivity extends AppCompatActivity {
     TextView confirmationText;
     NiceSpinner niceSpinner;
     private Payment payment;
+    EditText mobileNumber, voucherCode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,8 +68,8 @@ public class PaymentActivity extends AppCompatActivity {
         SimpleDateFormat timeFormat = new SimpleDateFormat("hhmmss", Locale.ENGLISH);
         AndroidNetworking.initialize(getApplicationContext( ));
         Typeface font = Typeface.createFromAsset(getAssets( ), "fonts/Montserrat-Medium.ttf");
-        final EditText mobileNumber = findViewById(R.id.mobileNumber);
-        final EditText voucherCode = findViewById(R.id.voucherCode);
+        mobileNumber = findViewById(R.id.mobileNumber);
+        voucherCode = findViewById(R.id.voucherCode);
         confirmationText = findViewById(R.id.confirmation_txt);
         final Button confirmPayment = findViewById(R.id.confirm_payout);
         final TextView checkoutText = findViewById(R.id.checkout);
@@ -166,13 +167,13 @@ public class PaymentActivity extends AppCompatActivity {
                                 .setPriority(Priority.MEDIUM)
                                 .addQueryParameter("merchant_key", payment.getMerchantKey())
                                 .addQueryParameter("invoice_id", payment.getInvoiceId())
-                                .build( )
+                                .build()
                                 .getAsJSONObject(new JSONObjectRequestListener( ) {
                                     @Override
                                     public void onResponse(JSONObject response) {
                                         pg.cancel( );
                                         try {
-                                            Log.v(getClass( ).getName( ), response.toString( ));
+                                            Log.v(getClass( ).getName( ), response.toString());
                                             Log.v(getClass( ).getName( ), response.getJSONObject(payment.getInvoiceId()).getString("status"));
                                             switch (response.getJSONObject(payment.getInvoiceId()).getString("status")) {
                                                 case "awaiting_payment":
@@ -189,7 +190,7 @@ public class PaymentActivity extends AppCompatActivity {
                                                     break;
                                             }
                                         } catch (JSONException e) {
-                                            e.printStackTrace( );
+                                            e.printStackTrace();
                                         }
                                     }
 
@@ -229,15 +230,15 @@ public class PaymentActivity extends AppCompatActivity {
             obj.put("merchant_key", payment.getMerchantKey());
             obj.put("invoice_id", payment.getInvoiceId());
             obj.put("total", payment.getAmount());
-            obj.put("pymt_instrument", payment.getMobileNumber());
+            obj.put("pymt_instrument", mobileNumber.getText().toString());
             obj.put("extra_mobile_no", payment.getExtraMobileNumber());
             obj.put("extra_wallet_issuer_hint", payment.getNetworkName());
-            obj.put("voucher_code", payment.getVoucherCode());
+            obj.put("voucher_code", voucherCode.getText().toString());
         } catch (JSONException e) {
             e.printStackTrace( );
         }
         AndroidNetworking.post("https://community.ipaygh.com/v1/mobile_agents_v2")
-                .setContentType("application.json")
+                .setContentType("application/json")
                 .addJSONObjectBody(obj)
                 .setPriority(Priority.MEDIUM)
                 .build( )

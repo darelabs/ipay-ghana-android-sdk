@@ -43,7 +43,7 @@ public class PaymentActivity extends AppCompatActivity {
     private String invoice = "";
     private LinearLayout layout;
     private LinearLayout layout1;
-    private String networkName = "mtn";
+    private String networkName = "";
     TextView confirmationText;
     NiceSpinner niceSpinner;
     private Payment payment;
@@ -231,6 +231,7 @@ public class PaymentActivity extends AppCompatActivity {
             obj.put("extra_mobile_no", payment.getExtraMobileNumber());
             obj.put("extra_wallet_issuer_hint", networkName);
             obj.put("voucher_code", voucherCode.getText().toString());
+            Log.v(getClass().getName(), obj.toString());
         } catch (JSONException e) {
             e.printStackTrace( );
         }

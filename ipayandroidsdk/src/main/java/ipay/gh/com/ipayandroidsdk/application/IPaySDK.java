@@ -1,12 +1,14 @@
 package ipay.gh.com.ipayandroidsdk.application;
 
 import android.annotation.SuppressLint;
+import android.app.Application;
 import android.content.Context;
+import android.content.Intent;
 
 import ipay.gh.com.ipayandroidsdk.BuildConfig;
 import ipay.gh.com.ipayandroidsdk.utils.IPayUtils;
 
-public final class IPaySDK {
+public final class IPaySDK extends Application {
     /**
      * Value of the version code of this SDK
      */
@@ -14,12 +16,18 @@ public final class IPaySDK {
     /**
      * The applications context which is important for application initialization
      */
-    @SuppressLint("StaticFieldLeak")
-    private static Context applicationContext;
 
-    public static synchronized void initialise(Context context) {
-        IPayUtils.validate.hasInternetPermission(context);
-           IPaySDK.applicationContext = context;
+    @Override
+    public void onCreate() {
+        super.onCreate( );
+        IPayUtils.validate.hasInternetPermission(getApplicationContext());
+        try {
+            Intent intent = new Intent(getApplicationContext(),
+                    Class.forName("ipay.gh.com.ipaysdkandroid.PaymentActivity"));
+            startActivity(intent);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
 }

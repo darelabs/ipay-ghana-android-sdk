@@ -133,17 +133,17 @@ public class PaymentActivity extends AppCompatActivity {
                 ku.hideKeyboard();
 
                 if (mobileNumber.getText( ).toString( ).isEmpty( )) {
-                        TastyToast.makeText(getApplicationContext( ), "Mobile Number cannot be empty", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                        TastyToast.makeText(getApplicationContext( ), "Mobile Number cannot be empty.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
                 } else {
                     if (mobileNumber.getText( ).toString( ).startsWith("0") && mobileNumber.getText( ).length( ) < 10) {
-                        TastyToast.makeText(getApplicationContext( ), "Mobile Number cannot be less than 10 characters long", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                        TastyToast.makeText(getApplicationContext( ), "Mobile Number cannot be less than 10 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
                     } else if (mobileNumber.getText( ).toString( ).startsWith("2") && mobileNumber.getText( ).length( ) > 12) {
-                        TastyToast.makeText(getApplicationContext( ), "Mobile Number cannot be more than 12 characters long", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                        TastyToast.makeText(getApplicationContext( ), "Mobile Number cannot be more than 12 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
                     } else if (voucherCode.getVisibility( ) == View.VISIBLE) {
                         if (voucherCode.getText( ).length( ) < 6) {
-                            TastyToast.makeText(getApplicationContext( ), "Voucher code cannot be less than 6 characters long", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                            TastyToast.makeText(getApplicationContext( ), "Voucher code cannot be less than 6 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
                         } else if (voucherCode.getText( ).length( ) >= 6 && mobileNumber.getText( ).length( ) < 10) {
-                            TastyToast.makeText(getApplicationContext( ), "Mobile Number cannot be less than 10 characters long", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                            TastyToast.makeText(getApplicationContext( ), "Mobile Number cannot be less than 10 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
                         } else {
                             makePayment(payment);
                         }

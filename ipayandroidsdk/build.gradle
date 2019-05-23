@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='ipay.gh.com.ipaysdkandroid'
+version='1.0'
 
 android {
     compileSdkVersion 28

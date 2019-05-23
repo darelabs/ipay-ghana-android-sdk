@@ -163,7 +163,7 @@ public class PaymentActivity extends AppCompatActivity {
                     public void run() {
                         AndroidNetworking.get("https://community.ipaygh.com/v1/gateway/json_status_chk")
                                 .setPriority(Priority.MEDIUM)
-                                .addQueryParameter("merchant_key", "40a998f0-d9de-11e6-8f20-f23c9170642f")
+                                .addQueryParameter("merchant_key", payment.getMerchantKey())
                                 .addQueryParameter("invoice_id", payment.getInvoiceId())
                                 .build( )
                                 .getAsJSONObject(new JSONObjectRequestListener( ) {

@@ -1,5 +1,6 @@
 package ipay.gh.com.ipayandroidsdk.models;
 
+
 public class Payment {
 
     private String merchantKey;

@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">IPayAndroidSDK</string>
+    <string name="app_name">IPay SDK</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="voucher_code">Voucher Code</string>
+    <string name="make_payment">Make Payment</string>
+s   <string name="checkout">Checkout With IPay</string>
+    <string name="proceed">Proceed</string>
+    <string name="mtn_confirmation_txt"><![CDATA[1. Dial *170# and Choose Wallet (Option 7) .\n 2. Choose My Approvals(Option 3).\n 3. Enter your MOMO pin to retrieve your pending approval list.\n 4. Choose the transaction to approve.\n 5. Click on the Confirm button, once you\'re done.]]></string>
+    <string name="confirm">Confirm</string>
 </resources>

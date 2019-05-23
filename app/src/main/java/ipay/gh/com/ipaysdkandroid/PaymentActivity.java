@@ -172,7 +172,7 @@ public class PaymentActivity extends AppCompatActivity {
                                         pg.cancel( );
                                         try {
                                             Log.v(getClass( ).getName( ), response.toString( ));
-                                            Log.v(getClass( ).getName( ), response.getJSONObject(invoice).getString("status"));
+                                            Log.v(getClass( ).getName( ), response.getJSONObject(payment.getInvoiceId()).getString("status"));
                                             switch (response.getJSONObject(invoice).getString("status")) {
                                                 case "awaiting_payment":
                                                     notifyMe("Awaiting Payment.", "warn");

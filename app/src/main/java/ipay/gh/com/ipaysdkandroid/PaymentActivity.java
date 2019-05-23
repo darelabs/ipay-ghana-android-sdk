@@ -178,7 +178,7 @@ public class PaymentActivity extends AppCompatActivity {
                                                     notifyMe("Awaiting Payment.", "warn");
                                                     break;
                                                 case "failed":
-                                                    notifyMe("Sorry, Payment Failed!", "danger");
+                                                    notifyMe("Sorry, Payment Failed.", "danger");
                                                     break;
                                                 case "paid":
                                                     notifyMe("Payment successful.", "success");

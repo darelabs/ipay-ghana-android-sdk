@@ -81,8 +81,6 @@ public class PaymentActivity extends AppCompatActivity {
         confirmationText.setTypeface(font);
         confirmPayment.setTypeface(font);
         checkoutText.setTypeface(font);
-        invoice = "IPAYTST" + format.format(new Date()) + timeFormat.format(new Date( ).getTime( ));
-        Log.v(getClass( ).getName( ), "Invoice : " + invoice);
         niceSpinner = findViewById(R.id.nice_spinner);
         niceSpinner.setTypeface(font);
         voucherCode.setTypeface(font);
@@ -162,8 +160,8 @@ public class PaymentActivity extends AppCompatActivity {
                     public void run() {
                         AndroidNetworking.get("https://community.ipaygh.com/v1/gateway/json_status_chk")
                                 .setPriority(Priority.MEDIUM)
-                                .addQueryParameter("merchant_key", "40a998f0-d9de-11e6-8f20-f23c9170642f")
-                                .addQueryParameter("invoice_id", invoice)
+                                .addQueryParameter("merchant_key", payment.getMerchantKey())
+                                .addQueryParameter("invoice_id", payment.getInvoiceId())
                                 .build( )
                                 .getAsJSONObject(new JSONObjectRequestListener( ) {
                                     @Override
@@ -171,8 +169,8 @@ public class PaymentActivity extends AppCompatActivity {
                                         pg.cancel( );
                                         try {
                                             Log.v(getClass( ).getName( ), response.toString( ));
-                                            Log.v(getClass( ).getName( ), response.getJSONObject(invoice).getString("status"));
-                                            switch (response.getJSONObject(invoice).getString("status")) {
+                                            Log.v(getClass( ).getName( ), response.getJSONObject(payment.getInvoiceId()).getString("status"));
+                                            switch (response.getJSONObject(payment.getInvoiceId()).getString("status")) {
                                                 case "awaiting_payment":
                                                     notifyMe("Awaiting Payment.", "warn");
                                                     break;
@@ -207,13 +205,13 @@ public class PaymentActivity extends AppCompatActivity {
     public void notifyMe(String message, String type) {
         switch (type) {
             case "success":
-                TastyToast.makeText(getApplicationContext( ), message, TastyToast.LENGTH_LONG, TastyToast.SUCCESS).setGravity(Gravity.TOP, 0, 0);
+                TastyToast.makeText(getApplicationContext(), message, TastyToast.LENGTH_LONG, TastyToast.SUCCESS).setGravity(Gravity.TOP, 0, 0);
                 break;
             case "warn":
-                TastyToast.makeText(getApplicationContext( ), message, TastyToast.LENGTH_LONG, TastyToast.WARNING).setGravity(Gravity.TOP, 0, 0);
+                TastyToast.makeText(getApplicationContext(), message, TastyToast.LENGTH_LONG, TastyToast.WARNING).setGravity(Gravity.TOP, 0, 0);
                 break;
             case "danger":
-                TastyToast.makeText(getApplicationContext( ), message, TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                TastyToast.makeText(getApplicationContext(), message, TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
                 break;
         }
     }
@@ -233,7 +231,7 @@ public class PaymentActivity extends AppCompatActivity {
             obj.put("voucher_code", voucherCode.getText().toString());
             Log.v(getClass().getName(), obj.toString());
         } catch (JSONException e) {
-            e.printStackTrace( );
+            e.printStackTrace();
         }
         AndroidNetworking.post("https://community.ipaygh.com/v1/mobile_agents_v2")
                 .setContentType("application.json")

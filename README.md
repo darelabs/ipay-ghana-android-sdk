@@ -4,7 +4,7 @@ This README file describes in details how to import the Android SDK for receivin
 
 ---
 
-## STEP 1
+### STEP 1
 
 To install the iPay SDK into your project, you must first add it as a gradle dependency.
 
@@ -18,12 +18,12 @@ under the dependency object to install the SDK. Kindly build after you add the d
 
 ---
 
-## STEP 2
+### STEP 2
 
 Call the payment object and fill in the necessary details as show below:
 1. Make sure this is in the **onCreate** method.
 2. Secondly fill in the Payment objects details.
-3. When putting the Payment object in the bundle object, name the key as payment. E.g **bundle.putSerializable(“payment”, Object);**
+3. When putting the Payment object in the bundle object, name the key as **payment**. E.g **bundle.putSerializable(“payment”, Object);**
 
 **Required fields:**
 1. Merchant Key

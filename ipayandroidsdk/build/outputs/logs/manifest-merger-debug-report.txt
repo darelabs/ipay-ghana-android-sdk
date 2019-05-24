@@ -1,41 +1,41 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
+ADDED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
 	package
-		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:2:5-41
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
+		ADDED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:2:5-41
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+		ADDED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+		ADDED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:1-6:12
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:4:5-55
+ADDED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:4:5-55
 	android:name
-		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml:4:18-53
+		ADDED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml:4:18-53
 uses-sdk
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+		ADDED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
-		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+		ADDED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/Desktop/IPayAndroidSDK/ipayandroidsdk/src/main/AndroidManifest.xml

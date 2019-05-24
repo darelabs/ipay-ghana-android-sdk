@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
+            "outputFile": "/Users/stevensmart/Desktop/IPayAndroidSDK/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
             "map": [
                 {
                     "source": "/Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e666e8be8225fdc3ca269e792ddabe3f/res/values-vi/values-vi.xml",

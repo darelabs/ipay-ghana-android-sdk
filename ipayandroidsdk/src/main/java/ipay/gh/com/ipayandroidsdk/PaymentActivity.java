@@ -216,7 +216,7 @@ public class PaymentActivity extends AppCompatActivity {
         }
     }
 
-    public void makePayment(Payment payment) {
+    public void makePayment(final Payment payment) {
         pg.setMessage("Processing...");
         pg.show( );
         Log.v(getClass( ).getName( ), networkName);
@@ -254,10 +254,10 @@ public class PaymentActivity extends AppCompatActivity {
                                 String network = niceSpinner.getText( ).toString( );
                                 switch (network) {
                                     case "Airtel Money":
-                                        confirmationText.setText("Once you submit this form, we will attempt to pull GHS (__) from your Airtel wallet");
+                                        confirmationText.setText("Once you submit this form, we will attempt to pull GHS "+payment.getAmount()+" from your Airtel wallet");
                                         break;
                                     case "Vodafone Cash":
-                                        confirmationText.setText("Once you submit this form, we will attempt to consume the voucher worth GHS (__) generated from your Vodafone cash wallet.");
+                                        confirmationText.setText("Once you submit this form, we will attempt to consume the voucher worth GHS "+payment.getAmount()+" generated from your Vodafone cash wallet.");
                                         break;
                                     case "Tigo Cash":
                                         confirmationText.setText("1. Payment instructions have been sent via SMS to the tigo number provided from Tigo Cash.\n 2. Dial *501*5# and complete transaction on your Tigo Cash phone by authorizing the payment.\n 3. Click on the Confirm button, once you're done.");

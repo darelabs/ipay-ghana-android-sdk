@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0D0D1"
+    tools:context=".PaymentActivity">
+
+    <ImageView
+        android:id="@+id/payment_method"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06999999" />
+
+    <TextView
+        android:id="@+id/checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/checkout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24000001" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_method"
+        app:layout_constraintVertical_bias="0.050000012">
+
+
+        <org.angmarch.views.NiceSpinner
+            android:id="@+id/nice_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="10sp" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_marginTop="10sp"
+            android:id="@+id/mobileNumber"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:paddingStart="10sp"
+            android:inputType="number"
+            android:drawableEnd="@drawable/ic_dialpad_black_24dp"
+            android:drawableTint="#063793"
+            android:hint="@string/mobile_number"
+            android:layout_marginBottom="10sp"
+            tools:ignore="RtlSymmetry" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/voucherCode"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="#ffffff"
+            android:inputType="number"
+            android:paddingStart="10sp"
+            android:layout_marginBottom="20sp"
+            android:drawableEnd="@drawable/ic_dialpad_black_24dp"
+            android:drawableTint="#063793"
+            android:hint="@string/voucher_code" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/proceed"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="#204190"
+            android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+            android:padding="10sp"
+            android:text="@string/proceed"
+            android:textStyle="bold"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/confirmation_txt"
+            android:padding="10sp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/mtn_confirmation_txt"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10sp"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/confirm_payout"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="8sp"
+            android:layout_gravity="center"
+            android:layout_height="60sp"
+            android:background="#204190"
+            android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+            android:padding="10sp"
+            android:text="@string/confirm"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/advert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

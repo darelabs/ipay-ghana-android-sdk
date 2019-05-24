@@ -1,0 +1,218 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [:ipayandroidsdk] /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.arcadefire:nice-spinner:1.3.8] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/nice-spinner-1.3.8.aar/9a4470dc76b0866df3e8631e37359215/AndroidManifest.xml:2:1-9:12
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.2.aar/01694777c76d42fa945ab9768cbcd841/AndroidManifest.xml:18:1-27:12
+MERGED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:2:1-28:12
+MERGED from [com.github.GrenderG:Toasty:1.4.2] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/Toasty-1.4.2.aar/e8cad34ed67ff91257dc7bbe23cc1585/AndroidManifest.xml:2:1-11:12
+MERGED from [com.sdsmdg.tastytoast:tastytoast:0.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/tastytoast-0.1.1.aar/344871e7e4a59193905ee778b8227123/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a1c8827464d2e6cc488d17b7d97877cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0728533d358da67cfaa2aff3101f736b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e495b015b7383afb969060e0ee6c62e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/3ae438452eba350b482fe1907b00c9c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/be0d95dc336fa4a6382524aa9746e086/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ea3d1f86c3a6ba567ed6f89e6176ad7d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0bd5bd0eff89dfc4644ac2df036d00c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/f662db568a3205b89c786f2539a2b4f5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/fc4f9ffe52fe625945631d959e2abf31/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ef834fb516d7a5c8e08dfe4f17d13e99/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/09ad76f1ec977e9e289e35a8618402f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/cb600490817ca48dca62c71b99f4203d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d17cf7c869f2b98a06e384d077ac018a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/6f71a00fcc37bd2a0c06b083ddfed6f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6b1d896472607ae5e2e5df08bc7aeab0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e666e8be8225fdc3ca269e792ddabe3f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bfdd15676bc613cd4df03b9d5f4346b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/841f98779aa43e9edbdc9a1e094ada1d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/81c52df7563b43f6ebc577ff32ba16a7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6f94892cb42df1a37a11078c498c2f41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e966ecff0fa0e61db1896bedb82fccc7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/cb0d7d121fe5a15d43c7d45dca766f8a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d41924acbe6e50727a4153dff8ac4f40/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5cf1a9edf19e45b541351751f1e87d38/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/deb19a73f8e75832bc6ae52185fa4b41/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/98e9ea6811b48aa91b4c03340bb43cb8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/65c7487a81e6200d0e413e9cf2e65d0b/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:4:5-41
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:8:5-23:19
+MERGED from [:ipayandroidsdk] /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-82
+MERGED from [:ipayandroidsdk] /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-82
+MERGED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:13:5-26:19
+MERGED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:13:5-26:19
+MERGED from [com.sdsmdg.tastytoast:tastytoast:0.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/tastytoast-0.1.1.aar/344871e7e4a59193905ee778b8227123/AndroidManifest.xml:11:5-12:19
+MERGED from [com.sdsmdg.tastytoast:tastytoast:0.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/tastytoast-0.1.1.aar/344871e7e4a59193905ee778b8227123/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0728533d358da67cfaa2aff3101f736b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0728533d358da67cfaa2aff3101f736b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e666e8be8225fdc3ca269e792ddabe3f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e666e8be8225fdc3ca269e792ddabe3f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bfdd15676bc613cd4df03b9d5f4346b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bfdd15676bc613cd4df03b9d5f4346b/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e666e8be8225fdc3ca269e792ddabe3f/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:15:9-60
+	android:roundIcon
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from [:ipayandroidsdk] /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:18-79
+activity#ipay.gh.com.ipaysdkandroid.PaymentActivity
+ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:screenOrientation
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:16:51-87
+	android:name
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:16:19-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+MERGED from [:ipayandroidsdk] /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:ipayandroidsdk] /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/ipayandroidsdk/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.arcadefire:nice-spinner:1.3.8] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/nice-spinner-1.3.8.aar/9a4470dc76b0866df3e8631e37359215/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.arcadefire:nice-spinner:1.3.8] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/nice-spinner-1.3.8.aar/9a4470dc76b0866df3e8631e37359215/AndroidManifest.xml:5:5-7:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.2.aar/01694777c76d42fa945ab9768cbcd841/AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.2.aar/01694777c76d42fa945ab9768cbcd841/AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.4.2] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/Toasty-1.4.2.aar/e8cad34ed67ff91257dc7bbe23cc1585/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.4.2] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/Toasty-1.4.2.aar/e8cad34ed67ff91257dc7bbe23cc1585/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sdsmdg.tastytoast:tastytoast:0.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/tastytoast-0.1.1.aar/344871e7e4a59193905ee778b8227123/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sdsmdg.tastytoast:tastytoast:0.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/tastytoast-0.1.1.aar/344871e7e4a59193905ee778b8227123/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a1c8827464d2e6cc488d17b7d97877cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a1c8827464d2e6cc488d17b7d97877cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0728533d358da67cfaa2aff3101f736b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0728533d358da67cfaa2aff3101f736b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e495b015b7383afb969060e0ee6c62e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e495b015b7383afb969060e0ee6c62e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/3ae438452eba350b482fe1907b00c9c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/3ae438452eba350b482fe1907b00c9c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/be0d95dc336fa4a6382524aa9746e086/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/be0d95dc336fa4a6382524aa9746e086/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ea3d1f86c3a6ba567ed6f89e6176ad7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ea3d1f86c3a6ba567ed6f89e6176ad7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0bd5bd0eff89dfc4644ac2df036d00c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0bd5bd0eff89dfc4644ac2df036d00c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/f662db568a3205b89c786f2539a2b4f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/f662db568a3205b89c786f2539a2b4f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/fc4f9ffe52fe625945631d959e2abf31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/fc4f9ffe52fe625945631d959e2abf31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ef834fb516d7a5c8e08dfe4f17d13e99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ef834fb516d7a5c8e08dfe4f17d13e99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/09ad76f1ec977e9e289e35a8618402f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/09ad76f1ec977e9e289e35a8618402f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/cb600490817ca48dca62c71b99f4203d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/cb600490817ca48dca62c71b99f4203d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d17cf7c869f2b98a06e384d077ac018a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d17cf7c869f2b98a06e384d077ac018a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/6f71a00fcc37bd2a0c06b083ddfed6f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/6f71a00fcc37bd2a0c06b083ddfed6f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6b1d896472607ae5e2e5df08bc7aeab0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6b1d896472607ae5e2e5df08bc7aeab0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e666e8be8225fdc3ca269e792ddabe3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e666e8be8225fdc3ca269e792ddabe3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bfdd15676bc613cd4df03b9d5f4346b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bfdd15676bc613cd4df03b9d5f4346b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/841f98779aa43e9edbdc9a1e094ada1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/841f98779aa43e9edbdc9a1e094ada1d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/81c52df7563b43f6ebc577ff32ba16a7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/81c52df7563b43f6ebc577ff32ba16a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6f94892cb42df1a37a11078c498c2f41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6f94892cb42df1a37a11078c498c2f41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e966ecff0fa0e61db1896bedb82fccc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e966ecff0fa0e61db1896bedb82fccc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/cb0d7d121fe5a15d43c7d45dca766f8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/cb0d7d121fe5a15d43c7d45dca766f8a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d41924acbe6e50727a4153dff8ac4f40/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d41924acbe6e50727a4153dff8ac4f40/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5cf1a9edf19e45b541351751f1e87d38/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5cf1a9edf19e45b541351751f1e87d38/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/deb19a73f8e75832bc6ae52185fa4b41/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/deb19a73f8e75832bc6ae52185fa4b41/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/98e9ea6811b48aa91b4c03340bb43cb8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/98e9ea6811b48aa91b4c03340bb43cb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/65c7487a81e6200d0e413e9cf2e65d0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/65c7487a81e6200d0e413e9cf2e65d0b/AndroidManifest.xml:20:5-44
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevensmart/AndroidStudioProjects/IPaySDKAndroid/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:11:22-73
+receiver#com.allyants.notifyme.BootNotifyMe
+ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:14:9-17:39
+	android:enabled
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:16:13-35
+	android:exported
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:15:13-62
+receiver#com.allyants.notifyme.ActionReceiver
+ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:18:9-21:39
+	android:enabled
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:20:13-35
+	android:exported
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:19:13-64
+receiver#com.allyants.notifyme.DeletePendingIntent
+ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:22:9-25:39
+	android:enabled
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:24:13-35
+	android:exported
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.0] /Users/stevensmart/.gradle/caches/transforms-1/files-1.1/NotifyMe-1.0.0.aar/5c102b793976c2c2fd812c3435ded805/AndroidManifest.xml:23:13-69

@@ -84,13 +84,17 @@ public class PaymentActivity extends AppCompatActivity {
         niceSpinner = findViewById(R.id.nice_spinner);
         niceSpinner.setTypeface(font);
         voucherCode.setTypeface(font);
-        final List<String> dataset = new LinkedList<>(Arrays.asList("MTN Money", "Vodafone Cash", "Tigo Cash", "Airtel Money", "Visa / Mastercard"));
+        final List<String> dataset = new LinkedList<>(Arrays.asList("Select Payment Network","MTN Money", "Vodafone Cash", "Tigo Cash", "Airtel Money", "Visa / Mastercard"));
         niceSpinner.attachDataSource(dataset);
 
         niceSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener( ) {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 switch (dataset.get(position)) {
+                    case "Select Payment Network":
+                        voucherCode.setVisibility(View.INVISIBLE);
+                        networkName = "";
+                        break;
                     case "Vodafone Cash":
                         voucherCode.setVisibility(View.VISIBLE);
                         networkName = "vodafone";
@@ -116,7 +120,7 @@ public class PaymentActivity extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
+                networkName = "";
             }
         });
 
@@ -128,26 +132,35 @@ public class PaymentActivity extends AppCompatActivity {
                  */
                 //KeyUtilities ku = new KeyUtilities("close", PaymentActivity.this);
                 //ku.hideKeyboard();
+                if ( networkName != ""){
 
-                if (mobileNumber.getText( ).toString( ).isEmpty( )) {
+                    if (mobileNumber.getText( ).toString( ).isEmpty( )) {
                         TastyToast.makeText(getApplicationContext( ), "Mobile Number cannot be empty.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
-                } else {
-                    if (mobileNumber.getText().toString().startsWith("0") && mobileNumber.getText( ).length( ) < 10) {
-                        TastyToast.makeText(getApplicationContext(), "Mobile Number cannot be less than 10 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
-                    } else if (mobileNumber.getText().toString().startsWith("2") && mobileNumber.getText( ).length( ) > 12) {
-                        TastyToast.makeText(getApplicationContext(), "Mobile Number cannot be more than 12 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
-                    } else if (voucherCode.getVisibility( ) == View.VISIBLE) {
-                        if (voucherCode.getText().length() < 6) {
-                            TastyToast.makeText(getApplicationContext(), "Voucher code cannot be less than 6 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
-                        } else if (voucherCode.getText().length() >= 6 && mobileNumber.getText( ).length( ) < 10) {
+                    } else {
+                        if (mobileNumber.getText().toString().startsWith("0") && mobileNumber.getText( ).length( ) < 10 ) {
                             TastyToast.makeText(getApplicationContext(), "Mobile Number cannot be less than 10 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                        } else if (mobileNumber.getText().toString().startsWith("2") && mobileNumber.getText( ).length( ) > 12) {
+                            TastyToast.makeText(getApplicationContext(), "Mobile Number cannot be more than 12 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                        } else if (voucherCode.getVisibility( ) == View.VISIBLE) {
+                            if (voucherCode.getText().length() < 6) {
+                                TastyToast.makeText(getApplicationContext(), "Voucher code cannot be less than 6 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                            } else if (voucherCode.getText().length() >= 6 && mobileNumber.getText( ).length( ) < 10) {
+                                TastyToast.makeText(getApplicationContext(), "Mobile Number cannot be less than 10 characters long.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                            } else {
+                                makePayment(payment);
+                            }
                         } else {
                             makePayment(payment);
                         }
-                    } else {
-                        makePayment(payment);
                     }
+
                 }
+                else {
+                    //If no Network or Payment Mode Selected
+                    TastyToast.makeText(getApplicationContext( ), "Select a Payment Network.", TastyToast.LENGTH_LONG, TastyToast.ERROR).setGravity(Gravity.TOP, 0, 0);
+                }
+
+
             }
         });
 
